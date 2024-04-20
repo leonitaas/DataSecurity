@@ -1,5 +1,6 @@
 # DataSecurity
 Polybius Square Cipher and Myszkowski Transposition Project
+
 Interaction professor Arbena Musa
 
 # Language
@@ -14,13 +15,14 @@ Myszkowski Transposition involves rearranging the plaintext characters based on 
 This project is developed from the authors below with full rights.
 
 # Authors
-Leonita Sinani
 
-Linda Hasanaj 
+[Leonita Sinani](https://github.com/leonitaas)
 
-Elda Qollaku
+[Linda Hasanaj](https://github.com/Linda-Hasanaj)
 
-Leutrim Morina
+[Elda Qollaku]
+
+[Leutrim Morina]
 
 
 
