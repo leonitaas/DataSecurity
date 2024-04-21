@@ -12,7 +12,10 @@ Polybius Square Cipher is a substitution cipher that replaces pairs of letters w
 Myszkowski Transposition involves rearranging the plaintext characters based on a keyword or phrase.The keyword determines the order of rearrangement. Repeated letters in the keyword are numbered sequentially to indicate their order in the transposition.The plaintext is written out in rows, with the length of each row determined by the length of the keyword. Then, the columns are rearranged according to the numerical order of the keyword letters.
 Result when we do run the code.
 
-![image](https://github.com/leonitaas/DataSecurity/assets/116465243/ecfde48e-bb13-4a47-a1d2-8c876e731502)
+![image](https://github.com/leonitaas/DataSecurity/assets/116465243/1d40aac7-9beb-43f2-a093-9cccfdb9d953)
+
+
+
 
 
 
