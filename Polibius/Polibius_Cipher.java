@@ -1,4 +1,4 @@
-package DataSecurity;
+package DataSecurity.Polibius;
 import java.util.Scanner;
 
 public class Polibius_Cipher {
