@@ -6,36 +6,45 @@ Interaction professor Arbena Musa
 # Language
 Project Polybius is developed in Java language and Myszkowski in Python language.
 
-# Usage
-Polybius Square Cipher is a substitution cipher that replaces pairs of letters with coordinates in a grid. The grid typically consists of 5 rows and 5 columns, with letters of the alphabet (usually excluding "J") written inside, each identified by their coordinates.Polybius provides a simple yet effective method of encryption, particularly suitable for handwritten messages.
+DETAILED DESCRIPTION ON HOW TO EXECUTE THE PROGRAM
+1. Polybius Square Cipher
+   Encryption:
+   - Run the program
+   - Type E to encrypt
+   - Write the key with 5 characters
+   - Enter the plaintext
+   - See the encrypted text
+   Decryption:
+   - Run the program
+   - Type D to decrypt
+   - Write the key with 5 characters
+   - Enter the ciphertext
+   - See the plaintext
+
+2. Myszkowski Transposition Cipher
+   Encryption:
+   - Type 1 to encrypt
+   - Enter the plaintext
+   - Enter the key (a word)
+   - See the encrypted text
+   Decryption:
+   - Type 2 to decrypt
+   - Enter the ciphertext
+   - Enter the key (a word)
+   - See the decrypted text
+
+DESCRIPTION OF ALGORITHMS
+Polybius Square Cipher is a substitution cipher that replaces pairs of letters with coordinates in a grid. The grid typically consists of 5 rows and 5 columns, with letters of the alphabet (usually excluding "J") written inside, each identified by their coordinates. To encode a message, each letter of the plaintext is substituted with a pair of numbers/letters representing the row and column of the letter in the Polybius Square.  To decode a message, the pairs of numbers in the ciphertext are matched to the corresponding letters in the Polybius Square based on their row and column positions.
+
+Myszkowski Transposition involves rearranging the plaintext characters based on a keyword or phrase. The keyword determines the order of rearrangement. Repeated letters in the keyword are numbered sequentially to indicate their order in the transposition. The plaintext is written out in rows, with the length of each row determined by the length of the keyword. Then, the columns are rearranged according to the numerical order of the keyword letters. After rearranging the columns, the characters are read off from the columns in the alphabetical order of the keyword. The resulting ciphertext is the rearranged characters of the plaintext. To decrypt the ciphertext, the process is reversed. The keyword is used to determine the original order of the columns, and the characters are then read off column by column to recover the plaintext.
+
+EXAMPLES FROM EXECUTION
+1. Polybius Square Cipher
 ![image](https://github.com/leonitaas/DataSecurity/assets/116391183/30c5b500-66fa-4265-ad74-ed17fb69d454)
 ![image](https://github.com/leonitaas/DataSecurity/assets/116391183/12a116cc-e85e-4362-b237-09c39c695fbf)
-
-
-
-Myszkowski Transposition involves rearranging the plaintext characters based on a keyword or phrase.The keyword determines the order of rearrangement. Repeated letters in the keyword are numbered sequentially to indicate their order in the transposition.The plaintext is written out in rows, with the length of each row determined by the length of the keyword. Then, the columns are rearranged according to the numerical order of the keyword letters.
-Result when we do run the code.
-
-Encryption:
-
-The plaintext message is written out in a grid, typically with a fixed number of columns and a number of rows determined by the length of the message.
-
-The columns of the grid are then rearranged according to the order of letters in the keyword.
-
-The ciphertext is formed by reading the letters from the rearranged columns row by row.
-
-![image](https://github.com/leonitaas/DataSecurity/assets/116465243/75fb40f3-e0ba-4cc4-aed9-fb13702354ad)
-
-
-Decryption:
-
-The ciphertext is arranged into a grid with the same number of columns as the encryption grid.
-
-The columns are rearranged according to the order of letters in the keyword.
-
-The plaintext is formed by reading the letters from the rearranged columns row by row.
-
-
+3. Myszkowski Transposition Cipher
+![image](https://github.com/leonitaas/DataSecurity/assets/116465243/1d40aac7-9beb-43f2-a093-9cccfdb9d953)
+![second](https://github.com/leonitaas/DataSecurity/assets/116763240/9ec8b055-d004-4dd4-8272-45ccadac49ff)
 
 
 
