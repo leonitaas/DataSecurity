@@ -17,6 +17,7 @@ Myszkowski Transposition involves rearranging the plaintext characters based on 
 Result when we do run the code.
 
 Encryption:
+
 The plaintext message is written out in a grid, typically with a fixed number of columns and a number of rows determined by the length of the message.
 
 The columns of the grid are then rearranged according to the order of letters in the keyword.
@@ -24,6 +25,7 @@ The columns of the grid are then rearranged according to the order of letters in
 The ciphertext is formed by reading the letters from the rearranged columns row by row.
 
 Decryption:
+
 The ciphertext is arranged into a grid with the same number of columns as the encryption grid.
 
 The columns are rearranged according to the order of letters in the keyword.
