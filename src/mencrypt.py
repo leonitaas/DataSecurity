@@ -75,7 +75,7 @@ while number==0:
             if (i + 1) % (len(newencrypt) - 1) == 0:
                 print(" ", end='')
 
-                elif select == "2":
+    elif select == "2":
         number=2
         text = input("\nEnter the text you want to decrypt: ")
         text = text.replace(" ", "")
