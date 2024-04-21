@@ -16,11 +16,14 @@ This project is developed from the authors below with full rights.
 
 # Authors
 
+[Elda Qollaku](https://github.com/eldaaqollaku)
+
+
 [Leonita Sinani](https://github.com/leonitaas)
+
 
 [Linda Hasanaj](https://github.com/Linda-Hasanaj)
 
-[Elda Qollaku](https://github.com/eldaaqollaku)
 
 [Leutrim Morina](https://github.com/LeutrimMorina13)
 
