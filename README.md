@@ -6,7 +6,7 @@ Interaction professor [Arbena Musa](https://github.com/ArbenaMusa)
 # Language
 Project Polybius is developed in Java language and Myszkowski in Python language.
 
- # HOW TO EXECUTE THE PROGRAM
+ # How to execute the program
  
 1. Polybius Square Cipher
    
