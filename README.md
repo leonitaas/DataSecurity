@@ -20,9 +20,9 @@ This project is developed from the authors below with full rights.
 
 [Linda Hasanaj](https://github.com/Linda-Hasanaj)
 
-[Elda Qollaku]
+[Elda Qollaku](https://github.com/eldaaqollaku)
 
-[Leutrim Morina]
+[Leutrim Morina](https://github.com/LeutrimMorina13)
 
 
 
