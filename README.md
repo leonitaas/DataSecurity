@@ -1,12 +1,13 @@
 # DataSecurity
 Polybius Square Cipher and Myszkowski Transposition Project
 
-Interaction professor Arbena Musa
+Interaction professor [Arbena Musa](https://github.com/ArbenaMusa)
 
 # Language
 Project Polybius is developed in Java language and Myszkowski in Python language.
 
-DETAILED DESCRIPTION ON HOW TO EXECUTE THE PROGRAM
+ # DETAILED DESCRIPTION ON HOW TO EXECUTE THE PROGRAM
+ 
 1. Polybius Square Cipher
    
 Encryption:
@@ -37,7 +38,7 @@ Decryption:
    - Enter the key (a word)
    - See the decrypted text
 
-DESCRIPTION OF ALGORITHMS
+# DESCRIPTION OF ALGORITHMS
 
 Polybius Square Cipher is a substitution cipher that replaces pairs of letters with coordinates in a grid. The grid typically consists of 5 rows and 5 columns, with letters of the alphabet (usually excluding "J") written inside, each identified by their coordinates. To encode a message, each letter of the plaintext is substituted with a pair of numbers/letters representing the row and column of the letter in the Polybius Square.  To decode a message, the pairs of numbers in the ciphertext are matched to the corresponding letters in the Polybius Square based on their row and column positions.
 
@@ -45,10 +46,13 @@ Myszkowski Transposition involves rearranging the plaintext characters based on 
 
 EXAMPLES FROM EXECUTION
 1. Polybius Square Cipher
+   
 ![image](https://github.com/leonitaas/DataSecurity/assets/116391183/30c5b500-66fa-4265-ad74-ed17fb69d454)
 ![image](https://github.com/leonitaas/DataSecurity/assets/116391183/12a116cc-e85e-4362-b237-09c39c695fbf)
+
 3. Myszkowski Transposition Cipher
-![image](https://github.com/leonitaas/DataSecurity/assets/116465243/1d40aac7-9beb-43f2-a093-9cccfdb9d953)
+   
+![image](https://github.com/leonitaas/DataSecurity/assets/116465243/93592512-e17f-4e74-96d6-fb81312587ea)
 ![second](https://github.com/leonitaas/DataSecurity/assets/116763240/9ec8b055-d004-4dd4-8272-45ccadac49ff)
 
 
