@@ -8,6 +8,7 @@ Project Polybius is developed in Java language and Myszkowski in Python language
 
 DETAILED DESCRIPTION ON HOW TO EXECUTE THE PROGRAM
 1. Polybius Square Cipher
+   
 Encryption:
    - Run the program
    - Type E to encrypt
@@ -23,6 +24,7 @@ Decryption:
    - See the plaintext
 
 2. Myszkowski Transposition Cipher
+
 Encryption:
    - Type 1 to encrypt
    - Enter the plaintext
