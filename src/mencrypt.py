@@ -74,3 +74,73 @@ while number==0:
             print(result[i], end='')
             if (i + 1) % (len(newencrypt) - 1) == 0:
                 print(" ", end='')
+
+                elif select == "2":
+        number=2
+        text = input("\nEnter the text you want to decrypt: ")
+        text = text.replace(" ", "")
+        text = list(text.upper())
+        key = input("Enter key: ")
+        key = list(key.upper())
+        sortkey = []
+        sortkey.append(key)
+        sortkey.append([])
+        i = 0
+        while i<len(key):
+            sortkey[1].append(i+1)
+            i+=1
+        sortkey = np.array(sortkey)
+        newsortkey = sortkey [ :, sortkey[0].argsort()]
+        sortkey = newsortkey.tolist()
+        sortkey.append([])
+        count = Counter(sortkey[0])
+        i = 0
+        n = 1
+        while i<len(key):
+            if count[sortkey[0][i]]>1:
+                for j in range(count[sortkey[0][i]]):
+                    sortkey[2].append(n)
+                i+=(count[sortkey[0][i]]-1)
+            else:
+                sortkey[2].append(n)
+            n+=1
+            i+=1
+        sortkey = np.array(sortkey)
+        newsortkey = sortkey [ :, sortkey[1].argsort()]
+        print("\n🔑:"+np.array2string(newsortkey[2],formatter={'str_kind': lambda x: x},separator=' ')[1:-1])
+        decrypt = []
+        decrypt.append(key)
+        decrypt.append([])
+        i = 0
+        while i<len(key):
+            decrypt[1].append(i+1)
+            i+=1
+        decrypt = np.array(decrypt)
+        newdecrypt = decrypt [ :, decrypt[0].argsort()]
+        decrypt = newdecrypt.tolist()
+        for i in range(int(len(text)/len(key))):
+            decrypt.append([])
+        count = Counter(decrypt[0])
+        index = 0
+        i = 0
+        while i<len(key):
+            if count[decrypt[0][i]]>1:
+                for k in range(2,int((len(text)/len(key))+2)):
+                    for j in range(count[decrypt[0][i]]):
+                        decrypt[k].append(text[index])
+                        index+=1
+                i+=(count[decrypt[0][i]]-1)
+            else:
+                for k in range(2, int((len(text) / len(key)) + 2)):
+                    decrypt[k].append(text[index])
+                    index+=1
+            i+=1
+        decrypt = np.array(decrypt)
+        result = decrypt [ :, decrypt[1].argsort()]
+        print(" "+np.array2string(result[2:len(result)],formatter={'str_kind': lambda x: x},separator=' ')[1:-1])
+        print("\nPlain Text =", end=' ')
+        for i in range(2,len(result)):
+            for j in range(len(result[0])):
+                print(result[i][j], end='')
+    else:
+        print("[!] Please enter the appropriate options.")
