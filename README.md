@@ -24,6 +24,9 @@ The columns of the grid are then rearranged according to the order of letters in
 
 The ciphertext is formed by reading the letters from the rearranged columns row by row.
 
+![image](https://github.com/leonitaas/DataSecurity/assets/116465243/75fb40f3-e0ba-4cc4-aed9-fb13702354ad)
+
+
 Decryption:
 
 The ciphertext is arranged into a grid with the same number of columns as the encryption grid.
@@ -32,7 +35,6 @@ The columns are rearranged according to the order of letters in the keyword.
 
 The plaintext is formed by reading the letters from the rearranged columns row by row.
 
-![image](https://github.com/leonitaas/DataSecurity/assets/116465243/1d40aac7-9beb-43f2-a093-9cccfdb9d953)
 
 
 
