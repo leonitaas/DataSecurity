@@ -47,9 +47,9 @@ public class Polibius_Cipher {
             for(int n=0;n<len;n++){
                 for(int i = 0; i < 6; i++){
                     for (int j = 0; j < 6; j++){
-                        if(plain_text.charAt(n)==table[i][j]){
-                            cipher+=table[i][0];
-                            cipher+=table[0][j];
+                        if(plain_text.charAt(n) == table[i][j]){
+                            cipher += table[i][0];
+                            cipher += table[0][j];
                         }
                     }
                 }
@@ -57,15 +57,15 @@ public class Polibius_Cipher {
             System.out.println("Cipher text: " + cipher);
         }
         if(y.equals("D")){
-            String cipher_text,plain="";
+            String cipher_text,plain ="";
             System.out.print("Please enter the cipher text: ");
             scanner.nextLine();
-            cipher_text=scanner.nextLine();
-            int size=cipher_text.length();
+            cipher_text = scanner.nextLine();
+            int size = cipher_text.length();
             for(int n=0;n<size;n+=2){
                 for(int i = 0; i < 6; i++){
                     for(int j = 0; j < 6; j++){
-                        if(cipher_text.charAt(n)==table[i][0]&&cipher_text.charAt(n+1)== table[0][j]){
+                        if(cipher_text.charAt(n) == table[i][0] && cipher_text.charAt(n+1) == table[0][j]){
                             plain += table[i][j];
                         }
                     }
