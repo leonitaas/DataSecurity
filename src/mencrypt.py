@@ -74,39 +74,3 @@ while number==0:
             print(result[i], end='')
             if (i + 1) % (len(newencrypt) - 1) == 0:
                 print(" ", end='')
-
-    elif select == "2":
-        number=2
-        text = input("\nEnter the text you want to decrypt: ")
-        text = text.replace(" ", "")
-        text = list(text.upper())
-        key = input("Enter key: ")
-        key = list(key.upper())
-        sortkey = []
-        sortkey.append(key)
-        sortkey.append([])
-        i = 0
-        while i<len(key):
-            sortkey[1].append(i+1)
-            i+=1
-        sortkey = np.array(sortkey)
-        newsortkey = sortkey [ :, sortkey[0].argsort()]
-        sortkey = newsortkey.tolist()
-        sortkey.append([])
-        count = Counter(sortkey[0])
-        i = 0
-        n = 1
-        while i<len(key):
-            if count[sortkey[0][i]]>1:
-                for j in range(count[sortkey[0][i]]):
-                    sortkey[2].append(n)
-                i+=(count[sortkey[0][i]]-1)
-            else:
-                sortkey[2].append(n)
-            n+=1
-            i+=1
-        sortkey = np.array(sortkey)
-        newsortkey = sortkey [ :, sortkey[1].argsort()]
-        print("\n🔑:"+np.array2string(newsortkey[2],formatter={'str_kind': lambda x: x},separator=' ')[1:-1])
-
-        
