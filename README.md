@@ -14,7 +14,8 @@ DETAILED DESCRIPTION ON HOW TO EXECUTE THE PROGRAM
    - Write the key with 5 characters
    - Enter the plaintext
    - See the encrypted text
-   Decryption:
+
+Decryption:
    - Run the program
    - Type D to decrypt
    - Write the key with 5 characters
@@ -22,12 +23,13 @@ DETAILED DESCRIPTION ON HOW TO EXECUTE THE PROGRAM
    - See the plaintext
 
 2. Myszkowski Transposition Cipher
-   Encryption:
+Encryption:
    - Type 1 to encrypt
    - Enter the plaintext
    - Enter the key (a word)
    - See the encrypted text
-   Decryption:
+
+Decryption:
    - Type 2 to decrypt
    - Enter the ciphertext
    - Enter the key (a word)
