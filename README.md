@@ -1,7 +1,7 @@
 # DataSecurity
 Polybius Square Cipher and Myszkowski Transposition Project
 
-Interaction professor [Arbena Musa](https://github.com/ArbenaMusa)
+Professor [Arbena Musa](https://github.com/ArbenaMusa)
 
 # Language
 Project Polybius is developed in Java language and Myszkowski in Python language.
